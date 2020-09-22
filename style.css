@@ -1,0 +1,154 @@
+/* reset */
+* {
+  padding: 0.22rem 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* general */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* header */
+header {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: flex-end;
+  padding: 0 1.875rem;
+  line-height: 3rem;
+}
+ul {
+  display: flex;
+  flex-direction: row nowrap;
+  list-style: none;
+  text-decoration: none;
+}
+header ul li {
+  padding: 0.5rem;
+  font-size: 0.8125rem;
+}
+header ul input {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  color: white;
+  background: #4285f4;
+  border-radius: 2px;
+  padding: 0 0.75rem;
+  line-height: 1.75rem;
+}
+/* section */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.googlelogo {
+  background: url(https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+    center no-repeat;
+  margin: 6.8125rem auto 0px auto;
+  height: 5.75rem;
+  width: 17rem;
+}
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.125rem auto;
+  height: 8.75rem;
+  width: 30.25rem;
+}
+
+.form {
+  border: 1px solid #dfe1e5;
+  width: 30.125rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form: hover {
+  box-shadow: 1px 1px 12px #dfe1e5;
+  border: none;
+}
+
+.SearchBox form input {
+  width: 24.18rem;
+  height: 2.125rem;
+  border: none;
+  outline: none;
+  font-size: large;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.buttons input {
+  margin: 0.5rem 0.5rem;
+  padding: 0.4rem;
+  background: #f2f2f2;
+  outline: none;
+  border-radius: 0.3rem;
+}
+
+/* footer */
+
+footer {
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.pied {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  font-size: 14px;
+  background: #f2f2f2;
+  line-height: 1.4rem;
+  border-top: 1px solid #e4e4e4;
+}
+
+.souspied {
+  color: rgba(0, 0, 0, 0.54);
+  border-bottom: 1px solid #e4e4e4;
+  padding-left: 1.2rem;
+  display: flex;
+  padding-right: 27px;
+  flex-wrap: wrap;
+}
+
+.infos1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.infos1 a {
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 25px;
+}
+
+/* .menufooter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-bottom: 1px solid #e4e4e4;
+} */
